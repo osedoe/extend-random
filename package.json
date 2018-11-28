@@ -1,0 +1,26 @@
+{
+  "name": "extend-random",
+  "version": "1.0.0",
+  "description": "Mock package to test how to create and upload them to npm. It will generate a random number between the two given values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/osedoe/extend-random.git"
+  },
+  "keywords": [
+    "npm",
+    "math",
+    "number",
+    "random",
+    "alphabet"
+  ],
+  "author": "Jose Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osedoe/extend-random/issues"
+  },
+  "homepage": "https://github.com/osedoe/extend-random#readme"
+}
