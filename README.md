@@ -19,3 +19,10 @@ rand.getNumber([min], [max]); // [randomNumber]
 ```javascript
 rand.getChar(); // [randomCharacter]
 ```
+
+- Shuffle a given array
+
+```javascript
+// Careful, it shuffles the SAME array that is passed
+rand.shuffle([array]); // array
+```
