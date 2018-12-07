@@ -1,4 +1,4 @@
-export const rand = {
+export default rand = {
   alphabet: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
   getNumber: function(min, max){
