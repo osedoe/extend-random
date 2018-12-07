@@ -1,25 +1,20 @@
-const rand = {
-  alphabet: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+exports.getNumber = function(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
 
-  getNumber: function(min, max){
-    return Math.floor(Math.random() * (max - min + 1) + min)
-  },
+exports.getChar = function () {
+  alphabet: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  return this.alphabet.charAt(Math.floor(Math.random() * this.alphabet.length))
+}
 
-  getChar: function(){
-    return this.alphabet.charAt(Math.floor(Math.random() * this.alphabet.length))
-  },
-
-  shuffle: function(array){
-    let counter = array.length;
+exports.shuffleArr = function(arr){
+    let counter = arr.length;
     while (counter > 0) {
       const index = Math.floor(Math.random() * counter);
       counter--;
-      const temp = array[counter];
-      array[counter] = array[index];
-      array[index] = temp;
+      const temp = arr[counter];
+      arr[counter] = arr[index];
+      arr[index] = temp;
     }
-    return array;
-  }
-};
-
-exports.rand = rand;
+    return arr;
+}
