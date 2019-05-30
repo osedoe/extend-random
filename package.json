@@ -2,7 +2,7 @@
   "name": "extend-random",
   "version": "1.2.2",
   "description": "Mock package to test how to create and upload them to npm. It will generate a random number between the two given values",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/osedoe/extend-random/issues"
   },
-  "homepage": "https://github.com/osedoe/extend-random#readme"
+  "homepage": "https://github.com/osedoe/extend-random#readme",
+  "dependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.5.1"
+  }
 }

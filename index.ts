@@ -1,13 +1,13 @@
-exports.getNumber = function(min, max) {
+export const getNumber = (min: number, max: number): number => {
   return Math.floor(Math.random() * (max - min + 1) + min)
-}
+};
 
-exports.getChar = function () {
-  alphabet: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  return this.alphabet.charAt(Math.floor(Math.random() * this.alphabet.length))
-}
+export const getChar = (): string => {
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  return alphabet.charAt(Math.floor(Math.random() * alphabet.length))
+};
 
-exports.shuffleArr = function(arr){
+export const shuffleArr = (arr: any[]) => {
     let counter = arr.length;
     while (counter > 0) {
       const index = Math.floor(Math.random() * counter);
@@ -17,4 +17,4 @@ exports.shuffleArr = function(arr){
       arr[index] = temp;
     }
     return arr;
-}
+};
