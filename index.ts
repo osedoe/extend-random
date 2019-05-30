@@ -1,8 +1,8 @@
-export const getNumber = (min: number, max: number): number => {
+export const generateRandomNumber = (min: number, max: number): number => {
   return Math.floor(Math.random() * (max - min + 1) + min)
 };
 
-export const getChar = (): string => {
+export const generateRandomChar = (): string => {
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   return alphabet.charAt(Math.floor(Math.random() * alphabet.length))
 };
