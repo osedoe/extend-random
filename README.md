@@ -5,19 +5,19 @@
 Import the package
 
 ```javascript
-const rand = require('extend-random')
+import { generateRandomNumber, generateRandomChar, shuffleArr } from 'extend-random';
 ```
 
 - Generate a random number
 
 ```javascript
-getNumber([min], [max]); // [randomNumber]
+generateRandomNumber([min], [max]); // [randomNumber]
 ```
 
 - Generate a random character from the alphabet
 
 ```javascript
-getChar(); // [randomCharacter]
+generateRandomChar(); // [randomCharacter]
 ```
 
 - Shuffle a given array
