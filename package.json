@@ -1,6 +1,6 @@
 {
   "name": "extend-random",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "description": "Mock package to test how to create and upload them to npm. It will generate a random number between the two given values",
   "main": "index.ts",
   "scripts": {
